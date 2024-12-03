@@ -1,0 +1,157 @@
+ServicePlanId,ServicePlanName,ServicePlanDisplayName
+03acaee3-9492-4f40-aed4-bcb6b32981b6,NBENTERPRISE,Retired - Microsoft Social Engagement
+041fe683-03e4-45b6-b1af-c0cdc516daee,POWER_VIRTUAL_AGENTS_O365_P2,Power Virtual Agents for Office 365
+0504111f-feb8-4a3c-992a-70280f9a2869,TEAMSPRO_MGMT,Microsoft Teams Premium Intelligent
+0683001c-0492-4d59-9515-d9a6426b5813,POWER_VIRTUAL_AGENTS_O365_P1,Power Virtual Agents for Office 365
+094e7854-93fc-4d55-b2c0-3ab5369ebdc1,OFFICE_BUSINESS,OFFICE 365 BUSINESS
+0a05d977-a21a-45b2-91ce-61c240dbafa2,PROJECT_FOR_PROJECT_OPERATIONS,Project for Project Operations
+0aedf20c-091d-420b-aadf-30c042609612,M365_COPILOT_SHAREPOINT,
+0b03f40b-c404-40c3-8651-2aceb74365fa,POWERAPPS_DYN_P2,Power Apps for Dynamics 365
+0b2c029c-dca0-454a-a336-887285d6ef07,GUIDES,Dynamics 365 Guides
+0d0c0d31-fae7-41f2-b909-eaf4d7f26dba,Bing_Chat_Enterprise,Commercial data protection for Microsoft Copilot
+0f9b09cb-62d1-4ff4-9129-43f4996f83f4,FLOW_O365_P1,FLOW FOR OFFICE 365
+0feaeb32-d00e-4d66-bd5a-43b5b83db82c,MCOSTANDARD,Skype for Business Online (Plan 2)
+113feb6c-3fe4-4440-bddc-54d774bf0318,EXCHANGE_S_FOUNDATION,Exchange Foundation
+1315ade1-0410-450d-b8e3-8050e6da320f,DYN365_CDS_GUIDES,Common Data Service
+1412cdc1-d593-4ad1-9050-40c30ad0b023,D365_CSI_EMBED_CE,Dynamics 365 Customer Service Insights for CE Plan
+14f8dac2-0784-4daa-9cb2-6d670b088d64,POWERAPPS_PER_APP_NEW,Power Apps per app
+159f4cd6-e380-449f-a816-af1a9ef76344,FORMS_PLAN_E1,MICROSOFT FORMS (PLAN E1)
+176a09a6-7ec5-4039-ac02-b2791c6ba793,EXCHANGE_S_ARCHIVE_ADDON,EXCHANGE ONLINE ARCHIVING FOR EXCHANGE ONLINE
+17ab22cd-a0b3-4536-910a-cb6eb12696c0,DYN365_CDS_VIRAL,Common Data Service
+18fa3aba-b085-4105-87d7-55617b8585e6,D365_ProjectOperationsCDS,Dynamics 365 Project Operations CDS
+199a5c09-e0ca-4e37-8f7c-b05d533e1ea2,MICROSOFTBOOKINGS,Microsoft Bookings
+1fe6227d-3e01-46d0-9510-0acad4ff6e94,PLACES_CORE,
+2049e525-b859-401b-b2a0-e0a31c4b1fe4,BI_AZURE_P0,Power BI (free)
+21b439ba-a0ca-424f-a6cc-52f954a5b111,WIN10_PRO_ENT_SUB,Windows 10/11 Enterprise (Original)
+276d6e8a-f056-4f70-b7e8-4fc27f79f809,OFFICE_SHARED_COMPUTER_ACTIVATION,Office Shared Computer Activation
+2789c901-c14e-48ab-a76a-be334d9d793a,FORMS_PLAN_E3,Microsoft Forms (Plan E3)
+28b0fa46-c39a-4188-89e2-58e979a6b014,DYN365_CDS_O365_P3,Common Data Service
+292cc034-7b7c-4950-aaf5-943befd3f1d4,MDE_LITE,Microsoft Defender for Endpoint Plan 1
+2b815d45-56e4-4e3a-b65c-66cb9175b560,ContentExplorer_Standard,Information Protection and Governance Analytics ? Standard
+2bdbaf8f-738f-4ac7-9234-3c3ee2ce7d0f,VISIOONLINE,Visio web app
+31b4e2fc-4cd6-4e7d-9c1b-41407303bd66,PROJECT_O365_P2,Project for Office (Plan E3)
+31cf2cfc-6b0d-4adc-a336-88b724ed8122,RMS_S_BASIC,Microsoft Azure Rights Management Service
+33c4f319-9bdd-48d6-9c4d-410b750a4a5a,MYANALYTICS_P2,Insights by MyAnalytics
+375cd0ad-c407-49fd-866a-0bff4f8a9a4d,POWER_AUTOMATE_ATTENDED_RPA,Power Automate RPA Attended
+39b5c996-467e-4e60-bd62-46066f572726,DYN365BC_MS_INVOICING,Microsoft Invoicing
+3c53ea51-d578-46fa-a4c0-fd0a92809a60,STREAM_O365_SMB,Stream for Office 365
+3da2fd4c-1bee-4b61-a17f-94c31e5cab93,CDS_ATTENDED_RPA,Common Data Service Attended RPA
+3efbd4ed-8958-4824-8389-1321f8730af8,MESH_AVATARS_ADDITIONAL_FOR_TEAMS,Avatars for Teams (additional)
+3f30311c-6b1e-48a4-ab79-725b469da960,M365_COPILOT_BUSINESS_CHAT,Microsoft Copilot with Graph-grounded chat
+40b010bb-0b69-4654-ac5e-ba161433f4b4,DYN365_CDS_O365_P1,Common Data Service
+41781fb2-bc02-4b7c-bd55-b576c07bb09d,AAD_PREMIUM,Microsoft Entra ID P1
+43de0ff5-c92c-492b-9116-175376d08c38,OFFICESUBSCRIPTION,Microsoft 365 Apps for enterprise
+4828c8ec-dc2e-4779-b502-87ac9ce28ab7,MCOEV,Microsoft 365 Phone System
+4ed3ff63-69d7-4fb7-b984-5aec7f605ca8,MCOPSTN1,Microsoft 365 Domestic Calling Plan
+4f4c7800-298a-4e22-8867-96b17850d4dd,MICROSOFT_REMOTE_ASSIST,Dynamics 365 Remote Assist
+4ff01e01-1ba7-4d71-8cf8-ce96c3bbcf14,DYN365_CDS_O365_P2,Common Data Service
+50554c47-71d9-49fd-bc54-42a2765c555c,DYN365_CDS_PROJECT,Common Data Service for Project
+505e180f-f7e0-4b65-91d4-00d670bbd18c,MCOPSTNC,COMMUNICATIONS CREDITS
+50e68c76-46c6-4674-81f9-75456511b170,FLOW_P2_VIRAL,Flow Free
+5136a095-5cf0-4aff-bec3-e84448b38ea5,MIP_S_CLP1,Information Protection for Office 365 - Standard
+54fc630f-5a40-48ee-8965-af0503c1386e,KAIZALA_O365_P2,Microsoft Kaizala Pro
+57ff2da0-773e-42df-b2af-ffb7a2317929,TEAMS1,Microsoft Teams
+5bfe124c-bbdc-4494-8835-f1297d457d79,O365_SB_Relationship_Management,RETIRED - Outlook Customer Manager
+5d7a2e9a-4ee5-4f1c-bc9f-abc481bf39d8,CDSAICAPACITY_PERAPP,AI Builder capacity Per App add-on
+5dbe027f-2339-4123-9542-606e4d348a72,SHAREPOINTENTERPRISE,SharePoint (Plan 2)
+5e62787c-c316-451f-b873-1d05acd4d12c,BPOS_S_TODO_1,To-Do (Plan 1)
+60bf28f9-2b70-4522-96f7-335f5e06c941,Power_Pages_Internal_User,Power Pages Internal User
+663a804f-1c30-4ff0-9915-9db84f0d1cea,VISIO_CLIENT_SUBSCRIPTION,Visio Desktop App
+6817d093-2d30-4249-8bd6-774f01efa78c,POWER_PAGES_VTRIAL,Power Pages vTrial for Makers
+69f07c66-bee4-4222-b051-195095efee5b,D365_ProjectOperations,Dynamics 365 Project Operations
+6c57d4b6-3b23-47a5-9bc9-69f17b4947b3,RMS_S_PREMIUM,Microsoft Entra RIGHTS
+6ea4c1ef-c259-46df-bce2-943342cd3cb2,DYN365_CDS_P2,Common Data Service - P2
+6f0e9100-ff66-41ce-96fc-3d8b7ad26887,DATAVERSE_POWERAPPS_PER_APP_NEW,Dataverse for Power Apps per app
+6f23d6a9-adbf-481c-8538-b4c095654487,M365_LIGHTHOUSE_CUSTOMER_PLAN1,Microsoft 365 Lighthouse (Plan 1)
+70d33638-9c74-4d01-bfd3-562de28bd4ba,BI_AZURE_P2,Power BI Pro
+711413d0-b36e-4cd4-93db-0a50a4ab7ea3,MCO_VIRTUAL_APPT,Microsoft Teams Premium Virtual Appointments
+743dd19e-1ce3-4c62-a3ad-49ba8f63a2f6,STREAM_O365_E1,Microsoft Stream for Office 365 E1
+74d93933-6f22-436e-9441-66d205435abb,CDSAICAPACITY_PERUSER_NEW,AI Builder capacity Per User add-on
+7547a3fe-08ee-4ccb-b430-5077c5041653,YAMMER_ENTERPRISE,YAMMER_ENTERPRISE
+76846ad7-7776-4c40-a281-a386362dd1b9,FLOW_O365_P2,Power Automate for Office 365
+78b58230-ec7e-4309-913c-93a45cc4735b,TEAMSPRO_WEBINAR,Microsoft Teams Premium Webinar
+795f6fe0-cc4d-4773-b050-5dde4dc704c9,UNIVERSAL_PRINT_01,Universal Print
+7bf960f6-2cd9-443a-8046-5dbff9558365,WINDOWSUPDATEFORBUSINESS_DEPLOYMENTSERVICE,Windows Update for Business Deployment Service
+7e6d7d78-73de-46ba-83b1-6d25117334ba,FLOW_DYN_APPS,Flow for Dynamics 365
+816971f4-37c5-424a-b12b-b56881f402e7,POWERAPPS_GUIDES,Power Apps for Guides
+818523f5-016b-4355-9be8-ed6944946ea7,PROJECT_PROFESSIONAL,Project P3
+82d30987-df9b-4486-b146-198b21d164c7,GRAPH_CONNECTORS_COPILOT,Graph Connectors in Microsoft 365 Copilot
+85704d55-2e73-47ee-93b4-4b8ea14db92b,MICROSOFT_ECDN,Microsoft eCDN
+882e1d05-acd1-4ccb-8708-6ee03664b117,INTUNE_O365,Mobile Device Management for Office 365
+89f1c4c8-0878-40f7-804d-869c9128ab5d,M365_COPILOT_CONNECTORS,Power Platform Connectors in Microsoft 365 Copilot
+8a256a2b-b617-496d-b51b-e76466e88db0,MFA_PREMIUM,MICROSOFT AZURE MULTI-FACTOR AUTHENTICATION
+8c66ef8a-177f-4c0d-853c-d4f219331d09,DYN365_ENTERPRISE_FIELD_SERVICE,Dynamics 365 for Field Service
+8c7d2df8-86f0-4902-b2ed-a0458298f3b3,Deskless,Microsoft StaffHub
+8e0c0a52-6a6c-4d40-8370-dd62790dcd70,THREAT_INTELLIGENCE,Microsoft Defender for Office 365 (Plan 2)
+8e229017-d77b-43d5-9305-903395523b99,WINBIZ,Windows 10/11 Business
+8e9ff0ff-aa7a-4b20-83c1-2f636b600ac2,INTUNE_SMBIZ,Microsoft Intune
+9104f592-f2a7-4f77-904c-ca5a5715883f,TEAMSPRO_VIRTUALAPPT,Microsoft Teams Premium Virtual Appointment
+91f50f7b-2204-4803-acac-5cf5668b8b39,CDSAICAPACITY_PERUSER,DO NOT USE - AI Builder capacity Per User add-on
+92f7a6f3-b89b-4bbd-8c30-809e6da5ad1c,POWERAPPS_O365_P1,POWERAPPS FOR OFFICE 365
+931e4a88-a67f-48b5-814f-16a5f1e6028d,M365_COPILOT_INTELLIGENT_SEARCH,Intelligent Search
+932ad362-64a8-4783-9106-97849a1a30b9,ADALLOM_S_DISCOVERY,CLOUD APP SECURITY DISCOVERY
+94065c59-bc8e-4e8b-89e5-5138d471eaff,MICROSOFT_SEARCH,Microsoft Search
+94a54592-cd8b-425e-87c6-97868b000b91,WHITEBOARD_PLAN2,Whiteboard (Plan 2)
+95b76021-6a53-4741-ab8b-1d1f3d66a95a,CDS_O365_P2,Common Data Service for Teams
+97f29a83-1a20-44ff-bf48-5e4ad11f3e51,Forms_Pro_CE,Microsoft Dynamics 365 Customer Voice for Customer Engagement Plan
+9974d6cf-cd24-4ba2-921c-e2aa687da846,MCOMEETBASIC,Microsoft Teams Audio Conferencing with dial-out to select geographies
+9a6eeb79-0b4b-4bf0-9808-39d99a2cd5a3,Windows_Autopatch,Windows Autopatch
+9aaf7827-d63c-4b61-89c3-182f06f82e5c,EXCHANGE_S_STANDARD,Exchange Online (Plan 1)
+9bec7e34-c9fa-40b7-a9d1-bd6d1165c7ed,BPOS_S_DlpAddOn,Data Loss Prevention
+9e700747-8b1d-45e5-ab8d-ef187ceec156,STREAM_O365_E3,Microsoft Stream for Office 365 E3
+a1ace008-72f3-4ea0-8dac-33b3a23a2472,CLIPCHAMP,Microsoft Clipchamp
+a23b959c-7ce8-4e57-9140-b90eb88a9e97,SWAY,Sway
+a2729df7-25f8-4e63-984b-8a8484121554,POWERAPPS_DEV_VIRAL,PowerApps for Developer
+a312bdeb-1e21-40d0-84b1-0e73f128144f,COMMON_DEFENDER_PLATFORM_FOR_OFFICE,
+a420f25f-a7b3-4ff5-a9d0-5d58f73b537d,WINDOWS_STORE,Windows Store Service
+a55dfd10-0864-46d9-a3cd-da5991a3e0e2,PROJECT_O365_P1,Project for Office (Plan E1)
+a62f8878-de10-42f3-b68f-6149a25ceb97,M365_COPILOT_APPS,Microsoft 365 Copilot in Productivity Apps
+a6520331-d7d4-4276-95f5-15c0933bc757,GRAPH_CONNECTORS_SEARCH_INDEX,Graph Connectors Search with Index
+a82fbf69-b4d7-49f4-83a6-915b2cf354f4,VIVAENGAGE_CORE,Viva Engage Core
+ab2d4fb5-f80a-4bf1-a11d-7f1da254041b,QUEUES_APP,
+acbca54f-c771-423b-a476-6d7a98cbbcec,MESH_IMMERSIVE,Microsoft Mesh
+aebd3021-9f8f-4bf8-bbe3-0ed2f4f047a1,KAIZALA_O365_P3,Microsoft Kaizala Pro
+afa73018-811e-46e9-988f-f75d2b1b8430,CDS_O365_P3,Common Data Service for Teams
+b21a6b06-1988-436e-a07b-51ec6d9f52ad,PROJECT_O365_P3,Project for Office (Plan E5)
+b650d915-9886-424b-a08d-633cede56f57,FLOW_DYN_P2,Power Automate for Dynamics 365
+b737dad2-2f6c-4c65-90e3-ca563267e8b9,PROJECTWORKMANAGEMENT,Microsoft Planner
+b76fb638-6ba6-402a-b9f9-83d28acb3d86,VIVA_LEARNING_SEEDED,Viva Learning Seeded
+b8afc642-032e-4de5-8c0a-507a7bba7e5d,WHITEBOARD_PLAN1,Whiteboard (Plan 1)
+b95945de-b3bd-46db-8437-f2beb6ea2347,M365_COPILOT_TEAMS,Microsoft 365 Copilot in Microsoft Teams
+be5a7ed5-c598-4fcd-a061-5e6724c68a58,SHAREPOINTSTORAGE,Office 365 Extra File Storage
+bea4c11e-220a-4e6d-8eb8-8ea15d019f90,RMS_S_ENTERPRISE,AZURE INFORMATION PROTECTION PREMIUM P1
+bed136c6-b799-4462-824d-fc045d3a9d25,CDS_O365_P1,Common Data Service for Teams
+bf28f719-7844-4079-9c78-c1307898e192,MTP,Microsoft 365 Defender
+bfc1bbd9-981b-4f71-9b82-17c35fd0e2a4,MDE_SMB,Microsoft Defender for Business
+c1ec4a95-1f05-45b3-a911-aa3fa01094f5,INTUNE_A,Microsoft Intune
+c4b8c31a-fb44-4c65-9837-a21f55fcabda,MICROSOFT_LOOP,Microsoft Loop
+c4da7f8a-5ee2-4c99-a7e1-87d2df57f6fe,AAD_BASIC,Microsoft Entra BASIC
+c539fa36-a64e-479a-82e1-e40ff2aa83ee,Flow_Per_APP,Power Automate for Power Apps per App Plan
+c63d4d19-e8cb-460e-b37c-4d6c34603745,OFFICEMOBILE_SUBSCRIPTION,OFFICEMOBILE_SUBSCRIPTION
+c68f8d98-5534-41c8-bf36-22fa496fa792,POWERAPPS_O365_P2,Power Apps for Office 365
+c7699d2e-19aa-44de-8edf-1736da088ca1,SHAREPOINTSTANDARD,SharePoint (Plan 1)
+c7ce3f26-564d-4d3a-878d-d8ab868c85fe,FLOW_DEV_VIRAL,Flow for Developer
+c87f142c-d1e9-4363-8630-aaea9c4d9ae5,BPOS_S_TODO_2,To-Do (Plan 2)
+c948ea65-2053-4a5a-8a62-9eaaaf11b522,PURVIEW_DISCOVERY,Purview Discovery
+cc8c0802-a325-43df-8cba-995d0c6cb373,TEAMSPRO_CUST,Microsoft Teams Premium Personalized
+d55411c9-cfff-40a9-87c7-240f14df7da5,M365_LIGHTHOUSE_PARTNER_PLAN1,Microsoft 365 Lighthouse (Plan 2)
+d56f3deb-50d8-465a-bedb-f079817ccac1,DYN365_ENTERPRISE_P1,Dynamics 365 Customer Engagement Plan
+d8c638e2-9508-40e3-9877-feb87603837b,DYN365_CDS_DEV_VIRAL,Common Data Service - DEV VIRAL
+da792a53-cbc0-4184-a10d-e544dd34b3c1,ONEDRIVE_BASIC,OneDrive for business Basic
+db4d623d-b514-490b-b7ef-8885eee514de,Nucleus,Nucleus
+dc789ed8-0170-4b65-a415-eb77d5bb350a,Flow_PowerApps_PerUser,Power Automate for Power Apps per User Plan
+dcf9d2f4-772e-4434-b757-77a453cfbc02,MESH_AVATARS_FOR_TEAMS,Avatars for Teams
+de377cbc-0019-4ec2-b77c-3f223947e102,AAD_SMB,Azure Active Directory
+ded3d325-1bdc-453e-8432-5bac26d7a014,POWER_VIRTUAL_AGENTS_O365_P3,Power Virtual Agents for Office 365
+e95bec33-7c88-4a70-8e19-b10bd9d0c014,SHAREPOINTWAC,Office for the Web
+ea2cf03b-ac60-46ae-9c1d-eeaeb63cec86,POWERAPPS_PER_USER,Power Apps per User Plan
+efb87545-963c-4e0d-99df-69c6916d9eb0,EXCHANGE_S_ENTERPRISE,EXCHANGE ONLINE (PLAN 2)
+f0ff6ac6-297d-49cd-be34-6dfef97f0c28,MESH_IMMERSIVE_FOR_TEAMS,Immersive spaces for Teams
+f20fedf3-f3c3-43c3-8267-2bfdd51c0939,ATP_ENTERPRISE,Microsoft Defender for Office 365 (Plan 1)
+f47330e9-c134-43b3-9993-e7f004506889,MCOEV_VIRTUALUSER,Microsoft 365 Phone Standard Resource Account
+f8566154-2a62-48cb-a0ab-d4d25be26e51,PLACES_ENHANCED,
+f8b44f54-18bb-46a3-9658-44ab58712968,TEAMSPRO_PROTECTION,Microsoft Teams Premium Secure
+fa200448-008c-4acb-abd4-ea106ed2199d,FLOW_FOR_PROJECT,Flow for Project
+fafd7243-e5c1-4a3a-9e40-495efcb1d3c3,PROJECT_CLIENT_SUBSCRIPTION,Project Online Desktop Client
+fe6c28b3-d468-44ea-bbd0-a10a5167435c,COPILOT_STUDIO_IN_COPILOT_FOR_M365,
+fe71d6c3-a2ea-4499-9778-da042bf08063,SHAREPOINT_PROJECT,Project Online Service

@@ -1,0 +1,3605 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20241202221327
+Username: AzureAD\MaromeOrcullo
+RunAs User: AzureAD\MaromeOrcullo
+Configuration Name: 
+Machine: LAPTOP-7EOA4VM1 (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 19024
+PSVersion: 5.1.22621.4391
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.4391
+BuildVersion: 10.0.22621.4391
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Work\NovusTechnicalServices\NTS-InformationTechnology\src\main\resources\logs\Novus-Employee-Master-2024C.logs
+Welcome to Microsoft Graph!
+
+Connected via delegated access using 14d82eec-204b-4c2f-b7e8-296a70dab67e
+Readme: https://aka.ms/graph/sdk/powershell
+SDK Docs: https://aka.ms/graph/sdk/powershell/docs
+API Docs: https://aka.ms/graph/docs
+
+NOTE: You can use the -NoWelcome parameter to suppress this message.
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:30
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 9cc63d4a-57d8-422f-8814-6fc08eabd3c5
+client-request-id             : d681f298-f3cf-4b36-8cdf-e513c4f4b053
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:29 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = aaro...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:30
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 9cc63d4a-57d8-422f-8814-6fc08eabd3c5
+client-request-id             : d681f298-f3cf-4b36-8cdf-e513c4f4b053
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:29 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = aaro...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: aaron.molloy@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:31
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : c81cc19a-a66b-47ae-80ae-19f07abfb9d5
+client-request-id             : eb9e257c-5825-4051-9864-157319e4c5d2
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:31 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = abdu...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:31
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : c81cc19a-a66b-47ae-80ae-19f07abfb9d5
+client-request-id             : eb9e257c-5825-4051-9864-157319e4c5d2
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:31 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = abdu...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: abdullhamid.mohammed@novustechserv.com |
+User: adam.clegg@novustechserv.com | Novus Technical Services - Canada
+User: adit.ganpat@novustechserv.com | Novus Technical Services - Canada
+User: adrian.reyes@novustechserv.com | Novus Technical Services - Canada
+User: adriana.levine@novustechserv.com |
+User: ahammed.anees@novustechserv.com |
+User: aki.kulshreshtha@novustechserv.com | Novus Technical Services - Canada
+User: alan.mcfadden@novustechserv.com | Novus Technical Services - Canada
+User: alex.carbonel@novustechserv.com | Novus Technical Services - Canada
+User: alex.matchim@novustechserv.com | Novus Industrial Atlantic
+User: alexander.kuzmenko@novustechserv.com |
+User: ali.aejaz@novustechserv.com |
+User: ali.benali@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:37
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : c6cabd39-a951-4dd3-a835-130005fbacc1
+client-request-id             : 5c35d5f0-f7e8-4953-8fe3-4434d48ff41e
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:37 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = ali....softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:37
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : c6cabd39-a951-4dd3-a835-130005fbacc1
+client-request-id             : 5c35d5f0-f7e8-4953-8fe3-4434d48ff41e
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:37 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = ali....softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: ali.majdob@novustechserv.com |
+User: allan.talle@novustechserv.com | Novus Technical Services - Canada
+User: allen.dunsmore@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:39
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : ca78b675-1120-4b48-9b6c-39a23f3ffc15
+client-request-id             : 6657d761-2429-41a6-9ca1-485e4d60ce4f
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:39 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = aman...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:39
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : ca78b675-1120-4b48-9b6c-39a23f3ffc15
+client-request-id             : 6657d761-2429-41a6-9ca1-485e4d60ce4f
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:39 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = aman...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: amanda.beatty@novustechserv.com |
+User: amanda.smith@novustechserv.com | Novus Industrial Atlantic
+User: Amin.Malayeri@novustechserv.com | Novus Technical Services - Canada
+User: andreas.pfeifer@novustechserv.com | Novus Technical Services - Canada
+User: andrei.scerbina@novustechserv.com | Novus Technical Services - Canada
+User: andreina.anez@novustechserv.com | Novus Technical Services - Canada
+User: andrew.leblanc@novustechserv.com | Novus Technical Services - Canada
+User: andrew.purcha@novustechserv.com |
+User: andy.piatek@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:43
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : d1777201-9502-4129-97fb-26fcef6a5287
+client-request-id             : a0f53fce-5ab9-4862-8bb2-bf503a64c165
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:43 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = anil...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:43
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : d1777201-9502-4129-97fb-26fcef6a5287
+client-request-id             : a0f53fce-5ab9-4862-8bb2-bf503a64c165
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:43 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = anil...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: anilkumar.madhava@novustechserv.com |
+User: anna.derose@novustechserv.com |
+User: antonina.tishkovetc@novustechserv.com | Novus Technical Services - Canada
+PS C:\Users\MaromeOrcullo> TerminatingError(Invoke-MgGraphRequest): "GET https://graph.microsoft.com/v1.0/users/RARENAS_suncor.com
+HTTP/1.1 404 Not Found
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: f91c6f24-f37e-4970-acc1-73010c9e6223
+client-request-id: 7d853eb3-2831-4999-a8a1-61d832e7bed0
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit: 1
+Cache-Control: no-cache
+Date: Tue, 03 Dec 2024 05:13:44 GMT
+Content-Encoding: gzip
+Content-Type: application/json
+
+{"error":{"code":"Request_ResourceNotFound","message":"Resource 'RARENAS_suncor.com' does not exist or one of its queried reference-property objects are not present.","innerError":{"date":"2024-12-03T05:13:44","request-id":"f91c6f24-f37e-4970-acc1-73010c9e6223","client-request-id":"7d853eb3-2831-4999-a8a1-61d832e7bed0"}}}"
+PS C:\Users\MaromeOrcullo> TerminatingError(Update-MgUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+
+User:  |
+User: argyll.macArthur@novustechserv.com | Novus Technical Services - Canada
+User: arlene.macapagal@novustechserv.com | Novus Technical Services - Canada
+User: arnel.abante@novustechserv.com | Kitamaat Technical Services Group
+User: ashley.sanroman@novustechserv.com |
+User: asif.mohiuddin@novustechserv.com |
+User: atsehermann.sombo@novustechserv.com | Novus Technical Services - Canada
+User: avishek.choudhury@novustechserv.com | Novus Technical Services - Canada
+User: bill.kennedy@novustechserv.com | Novus Technical Services - Canada
+User: bill.smith@novustechserv.com | Novus Technical Services - Canada
+User: bill.wong@novustechserv.com | Novus Technical Services - Canada
+User: binesh.leslie@novustechserv.com | Novus Industrial Atlantic
+User: blair.power@novustechserv.com | Novus Industrial Atlantic
+User: blanca.frausto@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:51
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : d13a8fee-6d8c-41bd-a229-29280616eeba
+client-request-id             : 0d9bb347-2da7-4026-b8df-49d8bfc84ad8
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:51 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = brad...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:51
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : d13a8fee-6d8c-41bd-a229-29280616eeba
+client-request-id             : 0d9bb347-2da7-4026-b8df-49d8bfc84ad8
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:51 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = brad...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: brad.kruk@novustechserv.com |
+User: brad.lait@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:52
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a84b4ebb-5e2b-45a0-b8eb-46c3274fff5c
+client-request-id             : 116b1423-85a8-439e-84c5-8fe8b8927fad
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:52 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = brad...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:52
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a84b4ebb-5e2b-45a0-b8eb-46c3274fff5c
+client-request-id             : 116b1423-85a8-439e-84c5-8fe8b8927fad
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:52 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = brad...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: bradford.lee@novustechserv.com |
+User: bradley.dawe@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:53
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 5ffa0b9c-3690-4183-96af-27b94269fd76
+client-request-id             : 92bf408a-ec5e-4615-bf63-6e316415319d
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:53 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = bran...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:53
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 5ffa0b9c-3690-4183-96af-27b94269fd76
+client-request-id             : 92bf408a-ec5e-4615-bf63-6e316415319d
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:53 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = bran...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: brandie.corrigan@novustechserv.com |
+User: brandon.reid@novustechserv.com | Novus Technical Services - Canada
+User: brendan.beehan@novustechserv.com |
+User: brent.seaward@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:54
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : ec3b08e9-9ead-41e0-bd49-8c40530c3d24
+client-request-id             : ecaa0e56-bf3c-4b96-8d1c-805fbc98cd86
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:54 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = bria...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:54
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : ec3b08e9-9ead-41e0-bd49-8c40530c3d24
+client-request-id             : ecaa0e56-bf3c-4b96-8d1c-805fbc98cd86
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:54 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = bria...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: brian.webster@novustechserv.com |
+User: bryan.blanchard@novustechserv.com |
+User: color.tan@novustechserv.com |
+User: callum.macDonald@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:56
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : dbbc0b94-7689-4bef-ba2f-366ebc0da640
+client-request-id             : 7f21ef96-370d-49e0-a753-9b59d591bf2f
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:56 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = came...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:56
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : dbbc0b94-7689-4bef-ba2f-366ebc0da640
+client-request-id             : 7f21ef96-370d-49e0-a753-9b59d591bf2f
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:56 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = came...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: cameron.mcintyre@novustechserv.com |
+User: caroline.manese@novustechserv.com | Novus Technical Services - Canada
+User: cecil.barnes@novustechserv.com | Novus Industrial Atlantic
+User: cesar.garcia@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:58
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : af0c9997-37c1-4350-af45-141806748d8d
+client-request-id             : cdbf8076-b49b-4234-adbd-853eda525a61
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:58 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = chad...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:13:58
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : af0c9997-37c1-4350-af45-141806748d8d
+client-request-id             : cdbf8076-b49b-4234-adbd-853eda525a61
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:13:58 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = chad...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: chad.forre@novustechserv.com |
+User: cheadrick.porter@novustechserv.com |
+User: chris.dougall@novustechserv.com |
+User: chris.oconnor@novustechserv.com |
+User: christina.garcia@novustechserv.com |
+User: christina.slaney@novustechserv.com | Novus Industrial Atlantic
+User: christopher.moring@novustechserv.com |
+User: christopher.murphy@novustechserv.com |
+User: christopher.turner@novustechserv.com |
+User: christopher.wolfe@novustechserv.com | Novus Technical Services - Canada
+User: chuck.coffee@novustechserv.com |
+User: cicley.esqueda@novustechserv.com |
+User: CAITCJR@novustechserv.com |
+User: cj.roma@novustechserv.com | Novus Technical Services - Canada
+User: colin.masters@novustechserv.com |
+User: colin.purvis@novustechserv.com |
+User: ConfRoomUS@novustechserv.com |
+User: conor.digan@novustechserv.com |
+User: cornelius.ryan@novustechserv.com |
+User: cory.mellors@novustechserv.com |
+User: cory.searle@novustechserv.com | Novus Industrial Atlantic
+User: cotter.macdonald@novustechserv.com | Novus Technical Services - Canada
+User: craig.cole@novustechserv.com |
+User: craig.wells@novustechserv.com |
+User: czarjeff.laban@novustechserv.com |
+User: damintote.bayentin@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:11
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 5586cf12-7bc5-4190-a1f1-0b9e36b5a0a6
+client-request-id             : 24c4446b-3e23-46ce-b3e6-c5e6fa899bb5
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:11 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = dani...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:11
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 5586cf12-7bc5-4190-a1f1-0b9e36b5a0a6
+client-request-id             : 24c4446b-3e23-46ce-b3e6-c5e6fa899bb5
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:11 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = dani...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: daniel.fossen@novustechserv.com |
+User: daniel.keating@novustechserv.com | Novus Industrial Atlantic
+User: danielle.burch@novustechserv.com |
+User: david.bisset@novustechserv.com | Novus Industrial Atlantic
+User: david.caldecott@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:13
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 28de18b6-1f50-459c-a6fe-58e6646ecdf0
+client-request-id             : b44ca8a4-cc5e-4056-bc1a-458374d4bd88
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:13 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = davi...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:13
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 28de18b6-1f50-459c-a6fe-58e6646ecdf0
+client-request-id             : b44ca8a4-cc5e-4056-bc1a-458374d4bd88
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:13 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = davi...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: david.higgins@novustechserv.com |
+User: david.murray@novustechserv.com | Novus Technical Services - Canada
+User: david.thornton@novustechserv.com |
+User: dean.imbong@novustechserv.com | Novus Technical Services - Canada
+User: debbie.cluett@novustechserv.com | Novus Industrial Atlantic
+User: declan.mcmahon@novustechserv.com |
+User: dennis.elorde@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:17
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 8b0327e0-d9d3-4d45-9d16-9809ec1851cf
+client-request-id             : 95d1694c-96d8-43f3-9250-ff7f15fb8d94
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:16 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = deny...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:17
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 8b0327e0-d9d3-4d45-9d16-9809ec1851cf
+client-request-id             : 95d1694c-96d8-43f3-9250-ff7f15fb8d94
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:16 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = deny...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: denys.terelia@novustechserv.com |
+User: derek.bozarth@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:18
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 2ec4b010-d80e-4377-81f2-2a7209920ace
+client-request-id             : 90ba93ba-49e0-46f6-b82d-b57b4c4d299a
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:17 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = Djem...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:18
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 2ec4b010-d80e-4377-81f2-2a7209920ace
+client-request-id             : 90ba93ba-49e0-46f6-b82d-b57b4c4d299a
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:17 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = Djem...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: Djemoui.Berbouche@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:18
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 6cc903a3-5fd7-42e5-b3d5-a3bf48150648
+client-request-id             : 20300379-6825-4268-9790-5c297ddf0884
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:18 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = dmyt...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:18
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 6cc903a3-5fd7-42e5-b3d5-a3bf48150648
+client-request-id             : 20300379-6825-4268-9790-5c297ddf0884
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:18 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = dmyt...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: dmytro.olshanskyi@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:18
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : df942c6f-f66f-4c98-bd7b-fae967cc817d
+client-request-id             : 3874db40-b518-45c6-90c9-dbaa86ba6ebc
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:18 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = dmyt...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:18
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : df942c6f-f66f-4c98-bd7b-fae967cc817d
+client-request-id             : 3874db40-b518-45c6-90c9-dbaa86ba6ebc
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:18 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = dmyt...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: dmytro.plakhotniuk@novustechserv.com |
+User: duane.friesen@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:19
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 616df9db-af71-4c5f-9514-8a300e63b468
+client-request-id             : b005d94e-79cd-4f4d-8c49-512251b70251
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:19 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = duan...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:19
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 616df9db-af71-4c5f-9514-8a300e63b468
+client-request-id             : b005d94e-79cd-4f4d-8c49-512251b70251
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:19 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = duan...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: duane.kichton@novustechserv.com |
+User: dylan.bonnell@novustechserv.com | Novus Industrial Atlantic
+User: dylan.hillier@novustechserv.com | Novus Industrial Atlantic
+User: Ed.Chiu@novustechserv.com | Novus Technical Services - Canada
+User: edwin.mendoza@novustechserv.com | Novus Technical Services - Canada
+User: elizabeth.schumacher@novustechserv.com |
+User: emilio.evangelista@novustechserv.com |
+User: enda.molloy@novustechserv.com |
+User: eric.parkinson@novustechserv.com | Novus Industrial Atlantic
+User: faron.herritt@novustechserv.com | Novus Industrial Atlantic
+User: faysal.diriye@novustechserv.com |
+User: Mar.dagatan@novustechserv.com |
+User: lynn.long@novustechserv.com |
+User: fergus.macdiarmid@novustechserv.com | Novus Technical Services - Canada
+User: first.last@novustechserv.com |
+User: franklin.collins@novustechserv.com |
+User: freya.sutherland@novustechserv.com |
+User: galina.kazak@novustechserv.com |
+User: gary.staunton@novustechserv.com |
+User: gary.trineer@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:29
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a77d1187-aaf4-4395-b487-42482d90dbe3
+client-request-id             : 9da46af3-0872-4c69-9064-6b82e18ec902
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:28 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = gele...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:29
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a77d1187-aaf4-4395-b487-42482d90dbe3
+client-request-id             : 9da46af3-0872-4c69-9064-6b82e18ec902
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:28 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = gele...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: geleta.gudeta@novustechserv.com |
+User: gina.stallman@novustechserv.com |
+User: gordon.hann@novustechserv.com | Novus Technical Services - Canada
+User: gordon.moulton@novustechserv.com | Novus Technical Services - Canada
+User: gordon.rose@novustechserv.com | Novus Industrial Atlantic
+User: graeme.mackay@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:31
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a968d18b-9a02-45f6-9a7f-3d1275e93e98
+client-request-id             : 71c5a17c-75be-46b3-a474-b22365f7b201
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:31 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = gran...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:31
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a968d18b-9a02-45f6-9a7f-3d1275e93e98
+client-request-id             : 71c5a17c-75be-46b3-a474-b22365f7b201
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:31 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = gran...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: grant.wheaton@novustechserv.com |
+User: gregory.goulet@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:32
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 0a5de3f2-502d-44ea-85e0-4dc1be14f655
+client-request-id             : 835a2884-0894-404a-8d48-7926af450273
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:32 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = greg...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:32
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 0a5de3f2-502d-44ea-85e0-4dc1be14f655
+client-request-id             : 835a2884-0894-404a-8d48-7926af450273
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:32 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = greg...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: gregory.johnson@novustechserv.com |
+User: gregory.taylor@novustechserv.com | Novus Industrial Atlantic
+User: gregory.young@novustechserv.com |
+User: hito.qi@novustechserv.com |
+User: hanan.anam@novustechserv.com | Novus Technical Services - Canada
+User: haneef.mullan@novustechserv.com | Novus Technical Services - Canada
+User: harrison.lamswood@novustechserv.com |
+User: hend.hammouda@novustechserv.com | Novus Technical Services - Canada
+User: hien.nguyen@novustechserv.com | Novus Technical Services - Canada
+User: Lily.li@novustechserv.com |
+User: houston.reception@novustechserv.com |
+User: hugh.odonnell@novustechserv.com |
+User: huy.au@novustechserv.com | Novus Technical Services - Canada
+User: huy.phan@novustechserv.com | Novus Technical Services - Canada
+User: ibrahim.mohammed@novustechserv.com |
+User: iris.zhu@novustechserv.com | Novus Technical Services - Canada
+User: neuc.iulia@novustechserv.com | Novus Technical Services - Canada
+User: iulia.neuc-usa@novustechserv.com |
+User: jackie.bravo@novustechserv.com |
+User: jacqueline.bravo@novustechserv.com |
+User: jacquiee.torreon@novustechserv.com | Novus Technical Services - Canada
+User: jacquiee.torreon-usa@novustechserv.com |
+User: jaime.gonzalez@novustechserv.com |
+User: james.howlin@novustechserv.com | Novus Technical Services - Canada
+User: james.abrego@novustechserv.com |
+User: james.mullins@novustechserv.com |
+User: james.pilling@novustechserv.com | Novus Industrial Atlantic
+User: james.walsh@novustechserv.com | Novus Industrial Atlantic
+User: jamie.pittman@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:47
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 822f2ebb-026e-4418-85b5-0195f793bad2
+client-request-id             : 68f8600c-036a-471f-ab91-c69a09a98ece
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:47 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = jan....softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:47
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 822f2ebb-026e-4418-85b5-0195f793bad2
+client-request-id             : 68f8600c-036a-471f-ab91-c69a09a98ece
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:47 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = jan....softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: jan.burns@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:47
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 7f3e5a66-998a-4a28-a1a0-209203e2e3bd
+client-request-id             : 2bc4e962-4274-45b3-aabd-172a66c09056
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:47 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = jaso...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:47
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 7f3e5a66-998a-4a28-a1a0-209203e2e3bd
+client-request-id             : 2bc4e962-4274-45b3-aabd-172a66c09056
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:47 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = jaso...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: jason.brown@novustechserv.com |
+User: jason.chumber@novustechserv.com | Novus Technical Services - Canada
+User: jaypee.custodio@novustechserv.com | Novus Technical Services - Canada
+User: jeffrey.aboy@novustechserv.com | Novus Technical Services - Canada
+User: jenna.morrison@novustechserv.com | Novus Industrial Atlantic
+User: jennifer.duff@novustechserv.com | Novus Industrial Atlantic
+User: jermaine.winston@novustechserv.com |
+User: jerry.cui@novustechserv.com | Novus Technical Services - Canada
+User: jerry.trask@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:52
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 66ba3d2d-f9ea-473d-9650-4b52fe9e07e5
+client-request-id             : 28056235-a392-4032-9d01-b4feef55e5e8
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:51 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = jess...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:52
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 66ba3d2d-f9ea-473d-9650-4b52fe9e07e5
+client-request-id             : 28056235-a392-4032-9d01-b4feef55e5e8
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:51 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = jess...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: jesse.reid@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:52
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 84bdcde5-54f2-4950-b101-f5561b41160e
+client-request-id             : ae266746-3f4f-45a8-98a7-3336adfdd863
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:52 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = jess...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:14:52
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 84bdcde5-54f2-4950-b101-f5561b41160e
+client-request-id             : ae266746-3f4f-45a8-98a7-3336adfdd863
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:14:52 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = jess...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: jessie.harris@novustechserv.com |
+User: jesus.prieto@novustechserv.com | Novus Technical Services - Canada
+User: lesley.zhu@novustechserv.com |
+User: jim.rodgers@novustechserv.com | Novus Industrial Atlantic
+User: jody.eversfield@novustechserv.com |
+User: john.bismonte@novustechserv.com | Novus Technical Services - Canada
+User: john.channon@novustechserv.com |
+User: john.lawrence@novustechserv.com | Novus Industrial Atlantic
+User: john.mullane@novustechserv.com | Novus Technical Services - Canada
+User: john.stokes@novustechserv.com |
+User: johnathan.hofford@novustechserv.com |
+User: Jonathan.perez@novustechserv.com | Novus Technical Services - Canada
+User: josefino.udaundo@novustechserv.com | Novus Technical Services - Canada
+User: joseph.authement@novustechserv.com |
+User: joseph.gongora@novustechserv.com |
+User: justin.chen@novustechserv.com | Novus Technical Services - Canada
+User: karonja.taylor@novustechserv.com |
+User: kate.nolan@novustechserv.com | Novus Industrial Atlantic
+User: keith.frampton@novustechserv.com | Novus Industrial Atlantic
+User: keith.roche@novustechserv.com | Novus Technical Services - Canada
+User: kelly.mcauliffe@novustechserv.com |
+User: kelvin.rudy@novustechserv.com | Kitamaat Technical Services Group
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:03
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : c048957b-b71f-4805-af7e-7a47ca16fd91
+client-request-id             : e972ab05-a602-41ec-b0ab-3aec973e4c08
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:03 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = kev....softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:03
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : c048957b-b71f-4805-af7e-7a47ca16fd91
+client-request-id             : e972ab05-a602-41ec-b0ab-3aec973e4c08
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:03 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = kev....softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: kev.clapham@novustechserv.com |
+User: kevin.dell@novustechserv.com | Novus Technical Services - Canada
+User: kevin.moroney@novustechserv.com |
+User: kibrom.negassi@novustechserv.com | Novus Technical Services - Canada
+User: kieran.murphy@novustechserv.com |
+User: kirill.panov@novustechserv.com | Novus Industrial Atlantic
+User: Konstantin.Pavlovichev@novustechserv.com | Novus Technical Services - Canada
+User: krishna.limbu@novustechserv.com | Novus Technical Services - Canada
+User: kristian.garcia@novustechserv.com |
+User: kristina.murphy@novustechserv.com | Novus Technical Services - Canada
+User: Kuldip.Singh@novustechserv.com | Novus Technical Services - Canada
+User: kyle.quilty@novustechserv.com | Novus Industrial Atlantic
+User: lametu.adeboye@novustechserv.com |
+User: leanne.scott-mcguire@novustechserv.com | Novus Industrial Atlantic
+User: leslie.puckett@novustechserv.com |
+User: liam.mullen@novustechserv.com |
+User: lifang.chu@novustechserv.com | Novus Technical Services - Canada
+User: linda.wong@novustechserv.com | Novus Technical Services - Canada
+User: lloyd.feehan@novustechserv.com | Novus Technical Services - Canada
+User: loenn.lagasca@novustechserv.com | Novus Technical Services - Canada
+User: luis.hernandez@novustechserv.com |
+User: luis.mandujano@novustechserv.com |
+User: mahtab.kowsari@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:15
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 7adb949a-9a79-495f-9872-19bc1e869297
+client-request-id             : 459f8932-5958-404e-af09-864cbf8fc5d7
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:15 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = maja...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:15
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 7adb949a-9a79-495f-9872-19bc1e869297
+client-request-id             : 459f8932-5958-404e-af09-864cbf8fc5d7
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:15 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = maja...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: maja.szlamp@novustechserv.com |
+User: mansooreh.chabook@novustechserv.com | Novus Technical Services - Canada
+User: marc.warren@novustechserv.com | Novus Industrial Atlantic
+User: marcus.selders@novustechserv.com |
+User: maria.ramos@novustechserv.com |
+User: marina.hugo@novustechserv.com |
+User: marjorie.washington@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:19
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 9b3c1d32-9e96-4a3d-ad6a-76a85728ca6c
+client-request-id             : 1ac2fefe-2f29-4186-a052-88eeb0d877df
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:19 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = mark...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:19
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 9b3c1d32-9e96-4a3d-ad6a-76a85728ca6c
+client-request-id             : 1ac2fefe-2f29-4186-a052-88eeb0d877df
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:19 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = mark...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: mark.cavanagh@novustechserv.com |
+User: mark.morelli@novustechserv.com | Novus Technical Services - Canada
+User: mark.stoute@novustechserv.com |
+User: CAITMO@novustechserv.com |
+User: marome.orcullo@novustechserv.com | Novus Technical Services - Canada
+User: maruis.koekemoer@novustechserv.com |
+User: marygrace.azuelo@novustechserv.com | Novus Technical Services - Canada
+User: mary.valentine@novustechserv.com |
+User: maryam.golabi@novustechserv.com | Novus Technical Services - Canada
+User: mathew.still@novustechserv.com | Novus Technical Services - Canada
+User: mathieu.richard@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:24
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : dbdfae4b-51db-4b0b-adcf-f91223d5f614
+client-request-id             : 727cd228-87ef-459b-bfff-4a840e32c736
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:24 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = math...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:24
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : dbdfae4b-51db-4b0b-adcf-f91223d5f614
+client-request-id             : 727cd228-87ef-459b-bfff-4a840e32c736
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:24 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = math...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: mathew.fudge@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:25
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 6d0db755-5838-41fb-8346-cb3e9588ea97
+client-request-id             : 9cb2e88e-532a-4a84-b518-1615216338b2
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:25 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = matt...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:25
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 6d0db755-5838-41fb-8346-cb3e9588ea97
+client-request-id             : 9cb2e88e-532a-4a84-b518-1615216338b2
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:25 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = matt...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: matthew.gillingham@novustechserv.com |
+User: matthew.sullivan@novustechserv.com | Novus Industrial Atlantic
+User: matthew.whelan@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:26
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : db282359-34ce-4894-ab19-feb6bb4a6925
+client-request-id             : fe097822-b1f6-44c7-836c-7a217488f173
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:26 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = maur...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:26
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : db282359-34ce-4894-ab19-feb6bb4a6925
+client-request-id             : fe097822-b1f6-44c7-836c-7a217488f173
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:26 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = maur...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: maurice.newbury@novustechserv.com |
+User: melissa.denne@novustechserv.com | Novus Technical Services - Canada
+User: michael.day@novustechserv.com |
+User: michael.edmunds@novustechserv.com | Novus Industrial Atlantic
+User: michael.goulding@novustechserv.com |
+User: michael.mcgee@novustechserv.com | Novus Technical Services - Canada
+User: mike.murphy@novustechserv.com |
+User: michael.oconnell@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:30
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 232cc014-fd39-4bf5-b228-4db7c9405fe3
+client-request-id             : 82bc637f-2842-469d-bf91-e265f6da2345
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:30 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = mich...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:30
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 232cc014-fd39-4bf5-b228-4db7c9405fe3
+client-request-id             : 82bc637f-2842-469d-bf91-e265f6da2345
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:30 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = mich...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: michael.qiu@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:31
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : af9c922b-23ad-4808-83e7-f9220908ab36
+client-request-id             : 819b9e80-ede4-4609-96af-8dcf5738dc09
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:30 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = mich...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:31
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : af9c922b-23ad-4808-83e7-f9220908ab36
+client-request-id             : 819b9e80-ede4-4609-96af-8dcf5738dc09
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:30 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = mich...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: michael.stanick@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Invoke-MgGraphRequest): "GET https://graph.microsoft.com/v1.0/users/MElick_vertex.ca
+HTTP/1.1 404 Not Found
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 81262605-b1a4-4c18-8905-d2273c1b3055
+client-request-id: 01a9bde4-3978-4232-a8fa-3859d30fc431
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit: 1
+Cache-Control: no-cache
+Date: Tue, 03 Dec 2024 05:15:31 GMT
+Content-Encoding: gzip
+Content-Type: application/json
+
+{"error":{"code":"Request_ResourceNotFound","message":"Resource 'MElick_vertex.ca' does not exist or one of its queried reference-property objects are not present.","innerError":{"date":"2024-12-03T05:15:31","request-id":"81262605-b1a4-4c18-8905-d2273c1b3055","client-request-id":"01a9bde4-3978-4232-a8fa-3859d30fc431"}}}"
+PS C:\Users\MaromeOrcullo> TerminatingError(Update-MgUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+
+User:  |
+User: miguel.nieves@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:32
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : d55910f5-3861-4713-b5a2-674bea16dbd1
+client-request-id             : 36335829-b03a-4f35-a307-55f0add71261
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:32 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = mike...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:32
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : d55910f5-3861-4713-b5a2-674bea16dbd1
+client-request-id             : 36335829-b03a-4f35-a307-55f0add71261
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:32 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = mike...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: mike.denis@novustechserv.com |
+User: nancy.fiorante@novustechserv.com |
+User: natalie.grant@novustechserv.com | Novus Industrial Atlantic
+User: natalie.richardson@novustechserv.com |
+User: natashya.egorova@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Invoke-MgGraphRequest): "GET https://graph.microsoft.com/v1.0/users/nathan_legacyfire.ca
+HTTP/1.1 404 Not Found
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: cc6407e7-86d2-4a50-a663-9e294bdf9c8a
+client-request-id: 41f6f25f-ba52-462a-912d-ae0e1c25f625
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit: 1
+Cache-Control: no-cache
+Date: Tue, 03 Dec 2024 05:15:34 GMT
+Content-Encoding: gzip
+Content-Type: application/json
+
+{"error":{"code":"Request_ResourceNotFound","message":"Resource 'nathan_legacyfire.ca' does not exist or one of its queried reference-property objects are not present.","innerError":{"date":"2024-12-03T05:15:34","request-id":"cc6407e7-86d2-4a50-a663-9e294bdf9c8a","client-request-id":"41f6f25f-ba52-462a-912d-ae0e1c25f625"}}}"
+PS C:\Users\MaromeOrcullo> TerminatingError(Update-MgUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+
+User:  |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:34
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 97076848-70a9-4836-91cf-a13ccee94171
+client-request-id             : e13ee17e-6e72-4342-8f3c-ab5afb400ed8
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:34 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = nath...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:34
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 97076848-70a9-4836-91cf-a13ccee94171
+client-request-id             : e13ee17e-6e72-4342-8f3c-ab5afb400ed8
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:34 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = nath...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: nathan.sutton@novustechserv.com |
+User: neil.macarthur@novustechserv.com | Novus Technical Services - Canada
+User: neil.parnham@novustechserv.com | Kitamaat Technical Services Group
+User: niall.oflaherty@novustechserv.com |
+User: nicholas.smith@novustechserv.com | Novus Industrial Atlantic
+User: nicole.mahon@novustechserv.com | Novus Industrial Atlantic
+User: nicolle.follett@novustechserv.com | Novus Industrial Atlantic
+User: nilesh.patil@novustechserv.com | Novus Technical Services - Canada
+User: Nima.Rahnama@novustechserv.com | Novus Technical Services - Canada
+User: Noelle.Tagimacruz@novustechserv.com | Novus Technical Services - Canada
+User: nolan.ewtushik@novustechserv.com | Novus Technical Services - Canada
+User: notifications@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Invoke-MgGraphRequest): "GET https://graph.microsoft.com/v1.0/users/robrdalj_suncor.com
+HTTP/1.1 404 Not Found
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: 465fa5ac-2cef-4b4d-962f-1be5290aca6a
+client-request-id: ba6a1120-ae34-49da-946b-39f1e5702627
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit: 1
+Cache-Control: no-cache
+Date: Tue, 03 Dec 2024 05:15:39 GMT
+Content-Encoding: gzip
+Content-Type: application/json
+
+{"error":{"code":"Request_ResourceNotFound","message":"Resource 'robrdalj_suncor.com' does not exist or one of its queried reference-property objects are not present.","innerError":{"date":"2024-12-03T05:15:39","request-id":"465fa5ac-2cef-4b4d-962f-1be5290aca6a","client-request-id":"ba6a1120-ae34-49da-946b-39f1e5702627"}}}"
+PS C:\Users\MaromeOrcullo> TerminatingError(Update-MgUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+
+User:  |
+User: olaide.muhibi@novustechserv.com |
+User: oleg.korotkov@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:42
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : e615c28a-1a57-4229-8d43-0b9bb12002ff
+client-request-id             : 35a02026-759f-44f1-a0ee-9791fa4b3eeb
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:42 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = olek...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:42
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : e615c28a-1a57-4229-8d43-0b9bb12002ff
+client-request-id             : 35a02026-759f-44f1-a0ee-9791fa4b3eeb
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:42 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = olek...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: oleksandr.tkachuk@novustechserv.com |
+User: osman.isse@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:43
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 55184a9c-c0c8-4981-9603-c34ca653b89d
+client-request-id             : 15d36118-11bc-442c-8cd6-f0bd28381cc4
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:43 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = parr...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:43
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 55184a9c-c0c8-4981-9603-c34ca653b89d
+client-request-id             : 15d36118-11bc-442c-8cd6-f0bd28381cc4
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:43 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = parr...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: parrish.blizard@novustechserv.com |
+User: Patrick.Niyorugira@novustechserv.com | Novus Technical Services - Canada
+User: patterson.melling@novustechserv.com | Novus Technical Services - Canada
+User: paul.hunt@novustechserv.com | Novus Technical Services - Canada
+User: paul.murphy@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:45
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : afc5d6f8-1505-4601-b8ad-6fc21b7cf6e1
+client-request-id             : 96e1d3ef-99de-4596-933b-f811e5852fa5
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:45 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = paul...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:45
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : afc5d6f8-1505-4601-b8ad-6fc21b7cf6e1
+client-request-id             : 96e1d3ef-99de-4596-933b-f811e5852fa5
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:45 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = paul...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: paul.nickelchok@novustechserv.com |
+User: paul.robinson@novustechserv.com |
+User: paul.tarling@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:46
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 3a266ae0-68ba-4325-a747-bf4a0fbd3be7
+client-request-id             : 54fab75c-096e-400e-a4b3-66c13a0034e7
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:46 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = pave...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:46
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 3a266ae0-68ba-4325-a747-bf4a0fbd3be7
+client-request-id             : 54fab75c-096e-400e-a4b3-66c13a0034e7
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:46 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = pave...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: pavel.kozanov@novustechserv.com |
+User: pawel.jakacki@novustechserv.com | Novus Technical Services - Canada
+User: peter.absalom@novustechserv.com |
+User: peter.flynn@novustechserv.com | Novus Technical Services - Canada
+User: peter.veriker@novustechserv.com | Novus Technical Services - Canada
+User: phil.reed@novustechserv.com | Novus Technical Services - Canada
+User: phil.twomey@novustechserv.com | Novus Technical Services - Canada
+User: piotr.jakacki@novustechserv.com | Novus Technical Services - Canada
+User: pj.flanagan@novustechserv.com |
+User: quentin.craddock@novustechserv.com |
+User: raghu.gopal@novustechserv.com | Novus Technical Services - Canada
+User: ramon.guerrero@novustechserv.com |
+User: randy.cormier@novustechserv.com | Novus Industrial Atlantic
+User: randy.hay@novustechserv.com | Novus Technical Services - Canada
+User: ray.barry@novustechserv.com |
+User: raymond.staunton@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:54
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 84c45291-8bfb-4b92-9af5-33991e62adf0
+client-request-id             : 63a37736-10f2-4bf4-b399-f77380d0d096
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:53 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = raym...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:54
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 84c45291-8bfb-4b92-9af5-33991e62adf0
+client-request-id             : 63a37736-10f2-4bf4-b399-f77380d0d096
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:53 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = raym...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: raymond.mercado@novustechserv.com |
+User: raymond.sheridan@novustechserv.com | Novus Technical Services - Canada
+User: rebecca.bailey@novustechserv.com | Novus Industrial Atlantic
+User: rena.hu@novustechserv.com | Novus Technical Services - Canada
+User: rens.vandewouw@novustechserv.com |
+User: reynald.reyes@novustechserv.com | Novus Technical Services - Canada
+User: richard.an@novustechserv.com | Novus Technical Services - Canada
+User: richard.parnham@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Invoke-MgGraphRequest): "GET https://graph.microsoft.com/v1.0/users/RichardY_tundrasolutions.ca
+HTTP/1.1 404 Not Found
+Transfer-Encoding: chunked
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000
+request-id: de818e7b-bfa7-4768-a8dd-6a0bb71d78fe
+client-request-id: b4056b87-b87e-4d1c-a20b-5063f290e7d5
+x-ms-ags-diagnostic: {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit: 1
+Cache-Control: no-cache
+Date: Tue, 03 Dec 2024 05:15:57 GMT
+Content-Encoding: gzip
+Content-Type: application/json
+
+{"error":{"code":"Request_ResourceNotFound","message":"Resource 'RichardY_tundrasolutions.ca' does not exist or one of its queried reference-property objects are not present.","innerError":{"date":"2024-12-03T05:15:57","request-id":"de818e7b-bfa7-4768-a8dd-6a0bb71d78fe","client-request-id":"b4056b87-b87e-4d1c-a20b-5063f290e7d5"}}}"
+PS C:\Users\MaromeOrcullo> TerminatingError(Update-MgUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+Update-MgUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:25 char:31
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Update-MgUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Update-MgUser
+
+User:  |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:58
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a74af950-2d4a-4c17-9eec-84714165cdbb
+client-request-id             : 38763df7-264f-4183-9803-06f9a1aebe3e
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:57 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = rick...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:15:58
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a74af950-2d4a-4c17-9eec-84714165cdbb
+client-request-id             : 38763df7-264f-4183-9803-06f9a1aebe3e
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:15:57 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = rick...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: rick.babb@novustechserv.com |
+User: rita.hall@novustechserv.com |
+User: robert.baird@novustechserv.com | Novus Industrial Atlantic
+User: robert.costelloe@novustechserv.com | Novus Technical Services - Canada
+User: roberta.obrdalj@novustechserv.com | Novus Technical Services - Canada
+User: roger.medina@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:00
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 14d2c192-7921-4650-b23a-7752bc321d33
+client-request-id             : 998085b6-8f7a-4681-aa0a-19e96c32b31b
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:00 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = rowe...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:00
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 14d2c192-7921-4650-b23a-7752bc321d33
+client-request-id             : 998085b6-8f7a-4681-aa0a-19e96c32b31b
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:00 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = rowe...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: rowell.gomez@novustechserv.com |
+User: rowena.reyes@novustechserv.com | Novus Technical Services - Canada
+User: roza.karagulova@novustechserv.com | Novus Technical Services - Canada
+User: ruben.arenas@novustechserv.com | Novus Technical Services - Canada
+User: russell.decker@novustechserv.com | Novus Technical Services - Canada
+User: ryan.cole@novustechserv.com | Novus Technical Services - Canada
+User: ryan.genneaux@novustechserv.com | Novus Technical Services - Canada
+User: ryan.nichols@novustechserv.com |
+User: safiyeh.sadr@novustechserv.com | Novus Technical Services - Canada
+User: sajib.hossain@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:05
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 40a00da2-4e65-43ae-80a0-7fc0ae7a3e47
+client-request-id             : d80d062a-54e3-4776-964a-7c9a941548f4
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:05 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = sami...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:05
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 40a00da2-4e65-43ae-80a0-7fc0ae7a3e47
+client-request-id             : d80d062a-54e3-4776-964a-7c9a941548f4
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:05 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = sami...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: sami.dini@novustechserv.com |
+User: sanjay.desai@novustechserv.com |
+User: sara.torr@novustechserv.com |
+User: sarah.green@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:07
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a475d053-16cf-4bdc-bcf3-79ab95b05062
+client-request-id             : ae0c9cde-bf68-4f55-849d-5744e140ba2d
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:07 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = scot...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:07
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : a475d053-16cf-4bdc-bcf3-79ab95b05062
+client-request-id             : ae0c9cde-bf68-4f55-849d-5744e140ba2d
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:07 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = scot...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: scott.burgess@novustechserv.com |
+User: scott.carrington@novustechserv.com | Novus Technical Services - Canada
+User: scott.jenkins@novustechserv.com | Novus Industrial Atlantic
+User: scott.manning@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:09
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : d68a081c-d865-4b3f-a54a-1507fca433eb
+client-request-id             : 61f55115-9eac-43a9-a060-dcdee93cedae
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:09 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = scot...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:09
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : d68a081c-d865-4b3f-a54a-1507fca433eb
+client-request-id             : 61f55115-9eac-43a9-a060-dcdee93cedae
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:09 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = scot...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: scott.morrish@novustechserv.com |
+User: sean.ayre@novustechserv.com |
+User: serge.humbert@novustechserv.com | Novus Technical Services - Canada
+User: shane.meche@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:11
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 1112765d-0aa7-4170-9097-7b8fa6ef11cd
+client-request-id             : 5a0c56b6-05b6-421e-a297-c98c49442260
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:10 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = shan...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:11
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 1112765d-0aa7-4170-9097-7b8fa6ef11cd
+client-request-id             : 5a0c56b6-05b6-421e-a297-c98c49442260
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:10 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = shan...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: shane.usipuik@novustechserv.com |
+User: shaun.walker@novustechserv.com | Novus Technical Services - Canada
+User: shawn.brown@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:12
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 46d3de75-8464-4eb7-8c50-d79697a5e6ff
+client-request-id             : a58e910d-d7ac-4fb5-bc8f-2113f861fdfc
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:12 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = shir...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:12
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 46d3de75-8464-4eb7-8c50-d79697a5e6ff
+client-request-id             : a58e910d-d7ac-4fb5-bc8f-2113f861fdfc
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:12 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = shir...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: shirley.yuan@novustechserv.com |
+User: morgan.liang@novustechserv.com |
+User: simon.clewlow@novustechserv.com | Novus Technical Services - Canada
+User: simon.guo@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:14
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : b8a3c4ef-25bd-46fa-85ea-3265530d52e8
+client-request-id             : 127592ab-651c-4d83-9b42-48558a168251
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:14 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = simo...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:14
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : b8a3c4ef-25bd-46fa-85ea-3265530d52e8
+client-request-id             : 127592ab-651c-4d83-9b42-48558a168251
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:14 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = simo...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: simon.pritchard@novustechserv.com |
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:15
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 5be53c23-6f01-4a53-b156-f589f782c471
+client-request-id             : 8ae5ddff-526c-467c-b895-5affb2ec975e
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:14 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = spen...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:15
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 5be53c23-6f01-4a53-b156-f589f782c471
+client-request-id             : 8ae5ddff-526c-467c-b895-5affb2ec975e
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:14 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = spen...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: spencer.dejourdan@novustechserv.com |
+User: srikanth.saravanan@novustechserv.com | Novus Technical Services - Canada
+User: stephan.morelli@novustechserv.com |
+User: stephen.rangen@novustechserv.com |
+User: steve.ho@novustechserv.com | Novus Technical Services - Canada
+User: steve.macdonald@novustechserv.com | Kitamaat Technical Services Group
+User: steven.durant@novustechserv.com |
+User: steven.ingram@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:19
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : f417a1ae-ab04-4b94-b851-c59fe6305413
+client-request-id             : 2d5ae43e-f902-4710-8589-24240947d952
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:19 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = stoy...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:19
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : f417a1ae-ab04-4b94-b851-c59fe6305413
+client-request-id             : 2d5ae43e-f902-4710-8589-24240947d952
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:19 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = stoy...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: stoyan.atanasov@novustechserv.com |
+User: stuart.macphie@novustechserv.com |
+User: syed.hasan@novustechserv.com | Novus Technical Services - Canada
+User: sylvain.chiasson@novustechserv.com | Novus Industrial Atlantic
+User: tamara.gordon@novustechserv.com | Kitamaat Technical Services Group
+User: tammy.croft@novustechserv.com | Novus Industrial Atlantic
+User: terry.collins@novustechserv.com | Novus Industrial Atlantic
+User: thao.huynh@novustechserv.com | Novus Technical Services - Canada
+User: tim.fair@novustechserv.com | Novus Industrial Atlantic
+User: tim.mulcahy@novustechserv.com |
+User: thomas.madderom@novustechserv.com |
+User: tom.murphy@novustechserv.com |
+User: tony.lockyer@novustechserv.com | Novus Industrial Atlantic
+User: tracy.walsh@novustechserv.com |
+User: trevor.appleby@novustechserv.com | Novus Industrial Atlantic
+User: trevor.stagg@novustechserv.com | Novus Industrial Atlantic
+User: troy.huszar@novustechserv.com | Novus Technical Services - Canada
+User: troy.poffenroth@novustechserv.com | Novus Technical Services - Canada
+User: troy.wolfe@novustechserv.com | Novus Technical Services - Canada
+User: truong.nguyen@novustechserv.com | Novus Technical Services - Canada
+User: tuan.tran@novustechserv.com | Novus Technical Services - Canada
+User: tung.nguyen@novustechserv.com | Novus Technical Services - Canada
+User: tyler.hughes@novustechserv.com | Novus Industrial Atlantic
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:33
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 2e522f34-9a04-4d31-94f8-eaf05f8d7c3a
+client-request-id             : 62f0feb2-8992-499f-9509-d1363e00227e
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:32 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = tyle...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:33
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 2e522f34-9a04-4d31-94f8-eaf05f8d7c3a
+client-request-id             : 62f0feb2-8992-499f-9509-d1363e00227e
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:32 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = tyle...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: tyler.huszar@novustechserv.com |
+User: valentino.nunez@novustechserv.com |
+User: vanessa.sulbaran@novustechserv.com | Novus Technical Services - Canada
+User: vanessa.sulbaran-usa@novustechserv.com |
+User: victor.cartegena@novustechserv.com |
+User: vish.chaudhary@novustechserv.com | Novus Technical Services - Canada
+User: vivienne.murphy@novustechserv.com | Novus Technical Services - Canada
+User: vladimir.kazak@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:37
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : ea8f7398-30d2-4b44-b358-54b857943e46
+client-request-id             : 3d87833c-dd72-45f2-966b-717f5bf4878a
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:37 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = vlad...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:37
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : ea8f7398-30d2-4b44-b358-54b857943e46
+client-request-id             : 3d87833c-dd72-45f2-966b-717f5bf4878a
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:37 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = vlad...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: vladyslav.asiutin@novustechserv.com |
+User: wai.woo@novustechserv.com | Novus Technical Services - Canada
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:38
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 289d2a38-6e4a-4846-bc9d-807c5289d8ec
+client-request-id             : 36c523d4-7188-423e-a551-64bded192f85
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 
+2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:38 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = wesl...softGraphUser }:<>f__AnonymousType42`3) 
+[Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+Update-MgUser : Invalid value specified for property 'companyName' of resource 'User'.
+
+Status: 400 (BadRequest)
+ErrorCode: Request_BadRequest
+Date: 2024-12-03T05:16:38
+
+Headers:
+Transfer-Encoding             : chunked
+Vary                          : Accept-Encoding
+Strict-Transport-Security     : max-age=31536000
+request-id                    : 289d2a38-6e4a-4846-bc9d-807c5289d8ec
+client-request-id             : 36c523d4-7188-423e-a551-64bded192f85
+x-ms-ags-diagnostic           : {"ServerInfo":{"DataCenter":"West US 2","Slice":"E","Ring":"4","ScaleUnit":"001","RoleInstance":"MW2PEPF00008D4F"}}
+x-ms-resource-unit            : 1
+Cache-Control                 : no-cache
+Date                          : Tue, 03 Dec 2024 05:16:38 GMT
+
+
+At line:21 char:9
++         Update-MgUser -UserId $currentUser.UserPrincipalName -Company ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: ({ UserId = wesl...softGraphUser }:<>f__AnonymousType42`3) [Update-MgUser_UpdateExpanded], Exception
+    + FullyQualifiedErrorId : Request_BadRequest,Microsoft.Graph.PowerShell.Cmdlets.UpdateMgUser_UpdateExpanded
+User: wesley.fedec@novustechserv.com |
+User: will.lin@novustechserv.com | Novus Technical Services - Canada
+User: winter.monedo@novustechserv.com |
+User: Yana.Tymoshevska@novustechserv.com | Novus Technical Services - Canada
+User: yannick.tremblay@novustechserv.com | Novus Industrial Atlantic
+User: zack.dixon@novustechserv.com |
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+PS C:\Users\MaromeOrcullo> TerminatingError(Get-EntraUser): "Cannot bind argument to parameter 'UserId' because it is an empty string."
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+Get-EntraUser : Cannot bind argument to parameter 'UserId' because it is an empty string.
+At line:16 char:42
++ ...  $currentUser = Get-EntraUser -UserId $user.UserPrincipalName -ErrorA ...
++                                           ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidData: (:) [Get-EntraUser], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Get-EntraUser
+
+User: zavier.biswah@novustechserv.com |
+**********************
+Windows PowerShell transcript end
+End time: 20241202221650
+**********************

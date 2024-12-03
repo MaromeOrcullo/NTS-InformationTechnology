@@ -1,0 +1,30 @@
+SkuId,SkuPartNumber,DisplayName,Price,Currency
+c5928f49-12ba-48f7-ada3-0d743a3601d5,VISIOCLIENT,Visio Plan 2,30,USD $
+3dd6cf57-d688-4eed-ba52-9e40b5468c3e,THREAT_INTELLIGENCE,Microsoft Defender for Office 365 (Plan 2),30,USD $
+f8a1db68-be16-40ed-86d5-cb42ce701560,POWER_BI_PRO,Power BI Pro,30,USD $
+639dec6b-bb19-468b-871c-c5c441c4b0cb,Microsoft_365_Copilot,Microsoft Copilot for Microsoft 365,30,USD $
+2b9c8e7c-319c-43a2-a2a0-48c5c6161de7,AAD_BASIC,Microsoft Entra ID Basic,30,USD $
+6470687e-a428-4b7a-bef2-8a291ad947c9,WINDOWS_STORE,Windows Store for Business,30,USD $
+6fd2c87f-b296-42f0-b197-1e91e994b900,ENTERPRISEPACK,Office 365 E3,30,USD $
+f30db892-07e9-47e9-837c-80727f46fd3d,FLOW_FREE,Microsoft Power Automate Free,30,USD $
+99049c9c-6011-4908-bf17-15f496e6519d,SHAREPOINTSTORAGE,Office 365 Extra File Storage,30,USD $
+440eaaa8-b3e0-484b-a8be-62870b9ba70a,PHONESYSTEM_VIRTUALUSER,Microsoft Teams Phone Resource Account,30,USD $
+cbdc14ab-d96c-4c30-b9f4-6ada7cdc1d46,SPB,Microsoft 365 Business Premium,30,USD $
+ea126fc5-a19e-42e2-a731-da9d437bffcf,DYN365_ENTERPRISE_PLAN1,Dynamics 365 Customer Engagement Plan,30,USD $
+f245ecc8-75af-4f8e-b61f-27d8114de5f3,O365_BUSINESS_PREMIUM,Microsoft 365 Business Standard,30,USD $
+a403ebcc-fae0-4ca2-8c8c-7a907fd6c235,POWER_BI_STANDARD,Microsoft Fabric (Free),30,USD $
+061f9ace-7d42-4136-88ac-31dc755f143f,INTUNE_A,Intune,30,USD $
+47794cd0-f0e5-45c5-9033-2eb6b5fc84e0,MCOPSTNC,Communications Credits,30,USD $
+ae2343d1-0999-43f6-ae18-d816516f6e78,MCOTEAMS_ESSENTIALS,Teams Phone with Calling Plan,30,USD $
+3f9f06f5-3c31-472c-985f-62d9c10ec167,Power_Pages_vTrial_for_Makers,Power Pages vTrial for Makers,30,USD $
+b30411f5-fea1-4a59-9ad9-3db7c7ead579,POWERAPPS_PER_USER,Power Apps per user plan,30,USD $
+093e8d14-a334-43d9-93e3-30589a8b47d0,RMSBASIC,Rights Management Service Basic Content Protection,30,USD $
+05e9a617-0261-4cee-bb44-138d3ef5d965,SPE_E3,Microsoft 365 E3,30,USD $
+3b555118-da6a-4418-894f-7df1e2096870,O365_BUSINESS_ESSENTIALS,Microsoft 365 Business Basic,30,USD $
+53818b1b-4a27-454b-8896-0dba576410e6,PROJECTPROFESSIONAL,Planner and Project Plan 3,30,USD $
+eda1941c-3c4f-4995-b5eb-e85a42175ab9,POWERAUTOMATE_ATTENDED_RPA,Power Automate Premium,30,USD $
+52ea0e27-ae73-4983-a08f-13561ebdb823,Teams_Premium_(for_Departments),Teams Premium (for Departments),30,USD $
+b4d7b828-e8dc-4518-91f9-e123ae48440d,POWERAPPS_PER_APP_NEW,Power Apps per app plan (1 app or portal),30,USD $
+1c27243e-fb4d-42b1-ae8c-fe25c9616588,Microsoft_Teams_Audio_Conferencing_select_dial_out,Microsoft Teams Audio Conferencing with dial-out to USA/CAN,30,USD $
+5b631642-bd26-49fe-bd20-1daaa972ef80,POWERAPPS_DEV,Microsoft Power Apps for Developer,30,USD $
+46102f44-d912-47e7-b0ca-1bd7b70ada3b,PROJECT_PLAN3_DEPT,Project Plan 3 (for Department),30,USD $
